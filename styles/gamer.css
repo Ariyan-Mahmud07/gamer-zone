@@ -43,15 +43,17 @@ font-weight: 700;
 .nav-item-container{
    
     display: flex;
-    gap: 25px;
+    width: 50%;
     align-items: center;
+    /* justify-content: space-around; */
+    gap: 25px;
    
 }
-.nav-items{
+/* .nav-items{
     display: flex;
     gap: 15px;
-}
-.nav-items a{
+} */
+.nav-item-container a{
     text-decoration: none;
     color: #3C354F;
     font-size: 18px;
@@ -70,4 +72,23 @@ font-weight: 700;
   color:#3C354F ;
   font-size: 18px;
   font-weight: 500;
+}
+
+/* for mobile devices */
+@media screen and (max-width:576px) {
+    .nav-container,.nav-item-container
+    {
+        flex-direction: column;
+        margin-top: 25px;
+        
+        
+    }
+    .logo-container{
+        width: 50%;
+    }
+    .nav-items2{
+        margin-top: 25px;
+        width: 100%;
+        text-align: center;
+    }
 }
