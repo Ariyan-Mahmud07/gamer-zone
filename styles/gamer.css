@@ -87,13 +87,13 @@ nav{
     /* max-width: 1400px; */
     /* min-height: 50px; */
     display: flex;
-    max-height: 565px;
+    /* max-height: 565px; */
 }
 .banner-text{
     
     width: 50%;
     text-align: left;
-    padding: 100px 150px;
+    padding: 200px 180px;
     background-image: url("../images/Group\ 14.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -177,7 +177,7 @@ font-weight: 700;
 .games-img-container{
    display: flex;
    justify-content: center;
-   gap: 25px;
+   gap: 30px;
     margin-top: 40px;
 }
 .games-img-container div{
@@ -204,7 +204,7 @@ width: 100%;
     /* border: 1px solid red; */
     /* max-width: 1400px; */
     /* margin: 120px 100px; */
-    min-height: 50px;
+    /* min-height: 50px; */
    margin-top: 120px;
    margin-right: 100px;
    margin-left: 100px;
@@ -215,9 +215,9 @@ width: 100%;
 width: 50%;
 /* padding: 200px 100px; */
 padding-top: 200px;
-padding-right: 50px;
+padding-right: 150px;
 padding-bottom: 100px;
-padding-left: 200px;
+padding-left: 100px;
 }
 .play-games-content h3{
     font-size: 48px;
@@ -237,14 +237,15 @@ width: 50%;
     width:700px;
     height: 600px;
     object-fit: cover;
+    margin-left: 100px;
 }
 .play-games-img .img-2{
     width: 200px;
     height: 250px;
     /* object-fit: cover; */
     position: relative;
-    bottom: 150px;
-    margin-left: 560px;
+    bottom: 180px;
+    margin-left: 660px;
 }
 /* games icon section start */
 .games-icon{
@@ -252,14 +253,14 @@ width: 50%;
     /* max-width: 1000px; */
     margin: 0 auto;
     /* min-height: 100px; */
-    padding: 100px 200px;
+    padding: 120px 300px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 .games-icon-container{
    display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
-   gap: 20px;
+   gap: 25px;
 }
 .games-icon-container button{
     padding: 5px 15px;
@@ -279,7 +280,7 @@ width: 50%;
     display: flex;
     /* flex-wrap: wrap; */
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 /* footer start  */
 footer{
